@@ -28,7 +28,7 @@ function printValues($arr) {
 }
  
 // Assign JSON encoded string to a PHP variable
-$json = $jsonapi = file_get_contents('http://api.weatherapi.com/v1/current.json?key=YOURAPIKEYHERE&q=London&aqi=no');
+$json = $jsonapi = file_get_contents('http://api.weatherapi.com/v1/current.json?key= a078f06fa64e48b7a4965629212905&q=London&aqi=no');
 // Decode JSON data into PHP associative array format
 $arr = json_decode($json, true);
  
